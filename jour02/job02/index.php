@@ -31,9 +31,10 @@
                 echo "<br>";
                 $i++;
                 break;
+            default:
+                echo "<p>", $i, "</p>", "<br>";
+                $i++;
         }
-        echo "<p>", $i, "</p>", "<br>";
-        $i++;
     }
     ?>
 </body>
