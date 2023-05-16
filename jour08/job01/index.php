@@ -2,7 +2,7 @@
     session_start();
 
     echo '<form method="post">';
-    echo '<input type="submit" name="Reset">';
+    echo '<input type="submit" name="Reset" value="Reset">';
     echo '</form>';
 
     if(!isset($_SESSION['nbvisites'])) {
