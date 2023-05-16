@@ -8,35 +8,27 @@
 </head>
 <body>
 <?php
-    function leetSpeak($str="Il y a celui qui veux rattraper le meilleur et celui qui veut dépasser le meilleur. C'est cette différence qui fait la victoire.") {
-        echo "<p>", $str, "</p>", "<br />";
-        for ($x = 0; isset($str[$x]); $x++) {
-            if ($str[$x] == 'a' || $str[$x] == 'A') {
-                $str[$x] = '4';
-            }
-            if ($str[$x] == 'b' || $str[$x] == 'B') {
-                $str[$x] = '8';
-            }
-            if ($str[$x] == 'e' || $str[$x] == 'E') {
-                $str[$x] = '3';
-            }
-            if ($str[$x] == 'g' || $str[$x] == 'G') {
-                $str[$x] = '6';
-            }
-            if ($str[$x] == 'l' || $str[$x] == 'L') {
-                $str[$x] = '1';
-            }
-            if ($str[$x] == 's' || $str[$x] == 'S') {
-                $str[$x] = '5';
-            }
-            if ($str[$x] == 't' || $str[$x] == 'T') {
-                $str[$x] = '7';
-            }
-        }
-        echo "<p>", $str, "</p>", "<br />";
+    function gras($str) {
+            
     }
 
-    leetSpeak()
+    function cesar($str) {
+        
+    }
+
+    function plateforme($str) {
+        
+    }
+
+    echo "<form action=''>";
+    echo "<input type='text' value='str' />";
+    echo "<select name='Fonction'>";
+    echo "<option value='gras'>", "Gras", "</option>";
+    echo "<option value='cesar'>", "Cesar", "</option>";
+    echo "<option value='plateforme'>", "Plateforme", "</option>";
+    echo "</select>";
+    echo "<button type='submit'>Submit", "</button>";
+    echo "</form>", "<br />";
 ?>
 </body>
 </html>
