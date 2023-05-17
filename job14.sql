@@ -1,1 +1,0 @@
-SELECT prenom, nom, naissance FROM etudiants WHERE naissance >= DATE "1998-01-01" AND naissance <= DATE "2018-12-31";
