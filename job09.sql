@@ -1,1 +1,0 @@
-SELECT * FROM etudiants WHERE naissance >= DATE "2005-05-17";
